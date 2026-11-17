@@ -18,3 +18,29 @@ body {
 button {
   background: white;
 }
+
+.card {
+  padding: 8px;
+}
+
+.title,
+.content{
+  font-size: 16px;
+  margin-bottom: 8px;
+  padding: 8px;
+}
+
+.button-container{
+  padding: 8px;
+  text-align: center;
+}
+
+
+
+button{
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+
+}
+
