@@ -67,3 +67,34 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+
+/* Solution */
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+
+
+
+.icon {
+  /* this keeps the icon from getting smashed by the text */
+  flex-shrink: 0;
+}
+/* header container should be wrapped around the button element as well in order for flex style to work */
+.header {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ margin-bottom: 8px;
+ font-size: 18px;
+ font-weight: 700;
+}
+
+
+.text {
+  margin-bottom: 16px;
+}
+
